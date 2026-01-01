@@ -1,0 +1,24 @@
+[submodule "tee"]
+	path = tee
+	url = https://github.com/cixtech/cix_opensource__tee__op-tee.git
+	branch = cix_p1_k6.6_2025q3_tfa_open_dev
+[submodule "tf-a"]
+	path = tf-a
+	url = https://github.com/cixtech/cix_opensource__arm-trusted-firmware.git
+	branch = cix_p1_k6.6_2025q3_tfa_open_dev
+[submodule "cix_package-tool"]
+	path = cix_package-tool
+	url = https://github.com/cixtech/cix_package-tool.git
+	branch = cix_p1_community_dev
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/cixtech/edk2
+	branch = cix_p1_community_dev
+[submodule "edk2-non-osi"]
+	path = edk2-non-osi
+	url = https://github.com/cixtech/edk2-non-osi
+	branch = cix_p1_community_dev
+[submodule "edk2-platforms"]
+	path = edk2-platforms
+	url = https://github.com/cixtech/edk2-platforms
+	branch = cix_p1_community_dev
