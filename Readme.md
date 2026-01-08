@@ -3,7 +3,7 @@ CIX P1 BIOS Community Version base on O6 Ecosystem Board
 
 # Summary
 
-This is a port of ARM64 Tiano Core UEFI firmware, ATF and OPTEE for the O6 Ecosystem Board based on the CIX P1 SoC.
+This is a port of ARM64 Tiano Core UEFI firmware, ATF and OPTEE with CIX P1 SOC base on O6 Ecosystem Board.
 
 CIX P1 BIOS open source code is base on as follows:
 - [edk2](https://github.com/tianocore/edk2): `fb493ac84ebc6860e1690770fb88183effadebfb`
@@ -11,10 +11,15 @@ CIX P1 BIOS open source code is base on as follows:
 - [arm-trusted-firmware](https://github.com/ARM-software/arm-trusted-firmware): v2.7.0
 - [optee-os](https://github.com/OP-TEE/optee_os/commits): v3.17.0
 
+
+# SystemReady Test Result
+- Use SystemReady band ACS Tools: [V25.10_SR_3.1.0](https://github.com/ARM-software/arm-systemready/tree/v25.10_SR_3.1.0/SystemReady-band)
+- PASS BSA v1.1 and SBSA V7.2 Level 6
+
 # How to download BIOS source code
   `git clone https://github.com/cixtech/bios.git -b cix_p1_community_dev ${YOUR_WORKSPACE} --recursive`
 
-# How to build (X86 & ARM64 Linux Environment)
+# How to build (X86 Linux Environment)
   From ${YOUR_WORKSPACE} run the following commands to download tools and setup environment:
   ```
   ln -s cix_package-tool/cix-build.sh cix-build.sh
