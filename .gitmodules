@@ -1,0 +1,12 @@
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/cixtech/cix_opensource__release__edk2
+	branch = cix_p1_dev
+[submodule "edk2-non-osi"]
+	path = edk2-non-osi
+	url = https://github.com/cixtech/cix_opensource__release__edk2-non-osi
+	branch = cix_p1_dev
+[submodule "edk2-platforms"]
+	path = edk2-platforms
+	url = https://github.com/cixtech/cix_opensource__release__edk2-platforms
+	branch = cix_p1_dev
